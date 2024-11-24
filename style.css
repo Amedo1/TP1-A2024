@@ -1,0 +1,48 @@
+/* annulation des parametres par defaut*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* couleur de la page et police*/
+body {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+}
+/* style de la div global*/
+#global {
+  width: 960px;
+  margin: 4px auto;
+}
+/* marge des liens*/
+nav a {
+  margin: 4px 100px;
+}
+/* style de la l/gende*/
+figcaption {
+  background-color: black;
+  position: relative;
+  top: -4px;
+  color: white;
+  padding: 4px;
+}
+/* style des sous-titres*/
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* style des paragraphes*/
+p {
+  margin-bottom: 10px;
+  text-indent: 20px;
+}
+/* style du footer*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/* augmenter espace entre lignes*/
+h4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
